@@ -1,0 +1,208 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-content: center;
+}
+main {
+  padding: 82px 24px;
+  width: 375px;
+  height: 1530px;
+}
+
+h1 {
+  color: #512051;
+  text-align: center;
+  font-family: "League Spartan";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 80% */
+  letter-spacing: -1.429px;
+}
+p {
+  width: 317px;
+  margin-top: 17px;
+  margin-bottom: 39px;
+  color: #927b91;
+  text-align: center;
+  font-family: "League Spartan";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 131.579% */
+  letter-spacing: -0.633px;
+}
+.ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.section-rating {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  height: 78px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #f7f2f7;
+  gap: 15px;
+}
+
+.section-rating h2 {
+  color: #512051;
+  font-family: "League Spartan";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card1 {
+  margin-top: 49px;
+}
+.card {
+  margin-bottom: 16px;
+  padding: 40px 32px 35px 32px;
+  width: 327px;
+  height: 248px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #512051;
+}
+.card-header {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.card-header h3 {
+  color: #fff;
+  font-family: "League Spartan";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card-header span {
+  color: #ee69a4;
+  font-family: "League Spartan";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card-user-name-and-type {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.card p {
+  text-align: left;
+  height: 110px;
+  width: 263px;
+  color: #fff;
+  font-family: "League Spartan";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 129.412% */
+  letter-spacing: -0.304px;
+}
+
+@media (min-width: 1025px) {
+  main {
+    padding: 118px 165px;
+    width: 1440px;
+    height: 800px;
+    position: relative;
+  }
+
+  h1 {
+    width: 445px;
+    height: 154px;
+    text-align: left;
+    font-size: 56px;
+    line-height: 48px; /* 80% */
+    letter-spacing: -2px;
+  }
+
+  p {
+    width: 445px;
+    margin-top: 16px;
+    text-align: left;
+    font-size: 19px;
+  }
+  .section-rating {
+    position: absolute;
+    width: 445px;
+    height: 56px;
+    flex-shrink: 0;
+    flex-direction: row;
+    gap: 32px;
+  }
+  .stars1 {
+    top: 145px;
+    right: 260px;
+  }
+  .stars2 {
+    top: 217px;
+    right: 212px;
+  }
+
+  .stars3 {
+    top: 289px;
+    right: 165px;
+  }
+  .card {
+    position: absolute;
+    width: 350px;
+    height: 234px;
+    flex-shrink: 0;
+  }
+  .card p {
+    width: 286px;
+  }
+  .card1 {
+    bottom: 132px;
+    left:165px;
+  }
+
+  .card2 {
+    bottom: 116px;
+    left: 545px;
+  }
+
+  .card3 {
+    bottom: 100px;
+    right:165px;
+  }
+}
+/*        <div class="card-header">
+          <img src="images/image-anne.jpg" class="avatar-img" alt="avatar image"/> 
+          <div class="card-user-name-and-type">
+            <h3>Anne Wallace</h3>
+            <span>Verified Buyer</span>
+          </div>
+        </div>*/
