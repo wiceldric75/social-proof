@@ -73,7 +73,7 @@ p {
   font-weight: 700;
   line-height: normal;
   flex-grow: 2;
-  text-align: right;
+  text-align: left;
 }
 .card1 {
   margin-top: 49px;
