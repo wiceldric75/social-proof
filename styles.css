@@ -51,7 +51,8 @@ p {
   gap: 16px;
 }
 .section-rating {
-  padding: 16px;
+  padding: 32px;
+  padding-right: 47px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,6 +72,8 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  flex-grow: 2;
+  text-align: right;
 }
 .card1 {
   margin-top: 49px;
